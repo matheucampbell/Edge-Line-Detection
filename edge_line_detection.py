@@ -26,10 +26,10 @@ global high
 low = 65
 high = 76
 
-def change_l_threshold():
+def change_l_threshold(num):
     return
 
-def change_h_threshold():
+def change_h_threshold(num):
     return
     
 cv.namedWindow('Canny Threshold Control')
