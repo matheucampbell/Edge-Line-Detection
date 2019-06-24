@@ -34,10 +34,10 @@ def change_h_threshold():
     
 cv.namedWindow('Canny Threshold Control')
 
-cv.createTrackbar('Threshold Limit 1', 'Threshold Control', 75, 500,
+cv.createTrackbar('Threshold Limit 1', 'Canny Threshold Control', 75, 500,
                   change_l_threshold)
 
-cv.createTrackbar('Threshold Limit 2', 'Threshold Control', 140, 500,
+cv.createTrackbar('Threshold Limit 2', 'Canny Threshold Control', 140, 500,
                   change_h_threshold)
 
 time.sleep(1)
